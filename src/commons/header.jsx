@@ -29,7 +29,7 @@ const Header = () => {
         <motion.a href="/" custom={0} variants={navVariants} className="block">
           <img
             className="w-30 md:w-38"
-            src="./src/img/logo.svg"
+            src="/logo.svg"
             alt="logo mora studio"
           />
         </motion.a>
