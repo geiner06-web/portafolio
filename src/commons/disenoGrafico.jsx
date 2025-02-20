@@ -15,7 +15,7 @@ const DisenoGrafico = () => {
         producciones audiovisuales.
       </p>
 
-      <div className="flex flex-wrap justify-center gap-8 text-center mt-10 align-middle recuadros">
+      <div className="flex  justify-center gap-3 text-center mt-10 align-middle recuadros">
         {/* Illustrator */}
         <div className="lg:w-1/3 md:w-60">
           <h3 className="font-bold mb-10 text-md">Illustrator</h3>

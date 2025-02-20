@@ -25,10 +25,7 @@
 
   }
 
-  .recuadros{
-    @apply flex-col;
-    
-  }
+  
   .recuadrospequenos img{
     @apply flex-col;
     @apply w-[30%];
@@ -41,7 +38,12 @@
   }
 }
 
-
+@media (max-width: 400px) {
+  .recuadros{
+    @apply flex;
+    @apply flex-col;
+  }
+}
 
 @media (max-width: 768px) {
   .recuadrosVideo {
