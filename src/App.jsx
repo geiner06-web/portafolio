@@ -34,13 +34,9 @@ function App() {
             piloto de dron, lo que me permite capturar imágenes desde distintas
             perspectivas para darle un valor extra a cada producción. Siempre
             busco que cada proyecto cuente una historia de forma clara, creativa
-            y profesional.
-          </p>
-
-          <p className="text-ml mt-5 leading-8 text-justify p-2">
-            Actualmente trabajo en <strong>CoopeAgri RL</strong>, una
-            cooperativa de Pérez Zeledón. Todos mis trabajos son propiedad de la
-            cooperativa. Pueden ver todo mi trabajo en
+            y profesional. Actualmente trabajo en <strong>CoopeAgri RL</strong>,
+            una cooperativa de Pérez Zeledón. Todos mis trabajos son propiedad
+            de la cooperativa. Pueden ver todo mi trabajo en
             <a
               href="https://www.youtube.com/@CoopeAgriCR"
               target="_blank"
