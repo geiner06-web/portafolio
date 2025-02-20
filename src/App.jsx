@@ -12,7 +12,6 @@ import EducationAndSkills from "./commons/educacion";
 import Contacto from "./commons/contacto";
 import Footer from "./commons/footer";
 
-
 function App() {
   const [count, setCount] = useState(0);
 
@@ -22,7 +21,7 @@ function App() {
       <main class="min-h-screen ">
         <Hero />
 
-        <section >
+        <section>
           <h2 className="text-2xl font-bold mt-20">
             Conoce más sobre mi trabajo Audio Visual
           </h2>
@@ -37,30 +36,48 @@ function App() {
             busco que cada proyecto cuente una historia de forma clara, creativa
             y profesional.
           </p>
-          <h3 className="font-bold text-xl mt-10 text-center">Mira algunos de mis videos</h3>
+
+          <p className="text-ml mt-5 leading-8 text-justify p-2">
+            Actualmente trabajo en <strong>CoopeAgri RL</strong>, una
+            cooperativa de Pérez Zeledón. Todos mis trabajos son propiedad de la
+            cooperativa. Pueden ver todo mi trabajo en
+            <a
+              href="https://www.youtube.com/@CoopeAgriCR"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="ml-2"
+            >
+              este enlace
+            </a>
+            .
+          </p>
+
+          <h3 className="font-bold text-xl mt-10 text-center">
+            Mira algunos de mis videos
+          </h3>
         </section>
 
-        <section >
+        <section>
           <VideoCatalog />
         </section>
 
         <section>
           <DisenoGrafico />
-          </section>
-          <section>
-            <Desarrollo />
-          </section>
+        </section>
+        <section>
+          <Desarrollo />
+        </section>
 
-          <section id="educacion">
-            <EducationAndSkills />
-          </section>
+        <section id="educacion">
+          <EducationAndSkills />
+        </section>
 
-          <section id="contacto">
-            <Contacto />
-          </section>
-          <footer>
-            <Footer />
-          </footer>
+        <section id="contacto">
+          <Contacto />
+        </section>
+        <footer>
+          <Footer />
+        </footer>
       </main>
     </>
   );
